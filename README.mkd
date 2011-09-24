@@ -17,3 +17,7 @@ $DBpass = ""; // The password for the wordpress database user
 $DBhost = ""; // The database host, usually localhost
 $WPthemedir = ""; The absolute path of the wp themes, eg: /var/www/wp-content/themes
 
+run chmod u+x unused_themes.php
+run ./unused_themes.php
+The script will output the names of the themes that are not being used.
+
