@@ -1,0 +1,19 @@
+*unused_themes.php*
+-------------------------------------
+
+Description: Gets the unused themes for a wordpress multisite installation. Can
+be modified to spit out the themes that are used by each site.
+
+
+Author: Ammar Khaku
+
+
+Usage instructions: create a file 'credentials.php' and define the following
+variables:
+
+$DBname = ""; // The name of the wordpress database
+$DBuname = ""; // The name of the wordpress database user
+$DBpass = ""; // The password for the wordpress database user
+$DBhost = ""; // The database host, usually localhost
+$WPthemedir = ""; The absolute path of the wp themes, eg: /var/www/wp-content/themes
+
