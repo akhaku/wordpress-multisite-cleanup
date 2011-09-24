@@ -9,15 +9,22 @@ Author: Ammar Khaku
 
 
 Usage instructions: create a file 'credentials.php' and define the following
-variables:
+variables:<br/>
 
-$DBname = ""; // The name of the wordpress database
-$DBuname = ""; // The name of the wordpress database user
-$DBpass = ""; // The password for the wordpress database user
-$DBhost = ""; // The database host, usually localhost
-$WPthemedir = ""; The absolute path of the wp themes, eg: /var/www/wp-content/themes
+$DBname = ""; // The name of the wordpress database<br/>
 
+$DBuname = ""; // The name of the wordpress database user<br/>
+
+$DBpass = ""; // The password for the wordpress database user<br/>
+
+$DBhost = ""; // The database host, usually localhost<br/>
+
+$WPthemedir = ""; The absolute path of the wp themes, eg: /var/www/wp-content/themes<br/>
+<br/>
+<br/>
 run chmod u+x unused_themes.php
+<br/>
 run ./unused_themes.php
+<br/>
 The script will output the names of the themes that are not being used.
-
+<br/>
